@@ -16,7 +16,7 @@ export class LocalDataEnumerationDriver implements IEnumerationContract {
    */
   isEnumerationValueValid(enumPair: EnumValidatoin): boolean {
     let lang = enumPair.language;
-    if (!this.dataSet.data.includes({ lang })) return false;
+    // if (!this.dataSet.data.includes({ lang })) return false;
 
     if (
       this.dataSet.data.map(

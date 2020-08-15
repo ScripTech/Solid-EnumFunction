@@ -1,6 +1,7 @@
-import { IEnumerationContract } from "../../contracts/Enumeration/IEnumerationContract";
-import { EnumValidatoin } from "../../entities/EnumValidatoin";
+import { IEnumerationContract } from "../../../contracts/Enumeration/IEnumerationContract";
+
 import { ValidationDataTypes } from "./ValidateEnumerationType";
+import { EnumValidatoin } from "../../../entities/EnumValidatoin";
 
 export class ValidateEnumeration {
   constructor(private enumerationContract: IEnumerationContract) {}
